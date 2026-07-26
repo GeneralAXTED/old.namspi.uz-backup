@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+      
+    <script nonce="891bWtTIVIMg7bjrwP_aQg">
+      function onEmbedLoad() {
+        initEmbed([null,null,null,null,null,[[[2,"spotlit",null,null,null,null,null,[null,null,null,null,null,null,null,null,null,null,11,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,1]]]],null,null,[[null,null,null,null,null,null,null,null,null,null,null,null,null,[[["4087945750292860825","8997377103667572179"],"/g/11vr4yq3f2",null,[410025206,716744449],null,null,null,null,null,null,null,null,null,null,"gcid:educational_institution"],0,0,null,null,0,null,0]]]],null,["uz",""],[null,null,null,"/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204"],null,null,null,null,null,null,null,null,"Lc1has-HLdChkdUP08DvmQE",null,null,null,[[[2151.189568515044,71.6744449,41.0025206],[0,0,0],null,13.10000038146973],null,1,[["0x38bb4d0043460f99:0x7cdd1ace3e56add3","2M3F+2Q4 Namangan davlat pedagogka instituti, Namangan, Namangan viloyati",[41.0025206,71.6744449],"8997377103667572179"],"Namangan davlat pedagogka instituti",["2M3F+2Q4","Namangan","Namangan viloyati"],4.800000190734863,"18 ta sharh","https://search.google.com/local/reviews?placeid=ChIJmQ9GQwBNuzgR061WPs4a3Xw\u0026q=Namangan+davlat+pedagogka+instituti\u0026hl=uz\u0026gl=UZ",null,null,null,null,null,null,"Ta'lim muassasasi","2M3F+2Q4, Namangan, Namangan viloyati",null,null,null,null,null,null,null,null,null,null,null,null,null,"ChIJmQ9GQwBNuzgR061WPs4a3Xw",null,null,"0ahUKEwiP0pyoreiVAxXQUKQEHVPgOxMQ8BcIAigA",null,null,null,null,null,null,1]],null,null,null,0,null,null,null,null,null,null,[1]]);
+      }
+      function onApiLoad() {
+        var embed = document.createElement('script');
+        embed.src = "https://maps.gstatic.com/maps-api-v3/embed/js/65/10a/intl/uz_ALL/init_embed.js";
+        document.body.appendChild(embed);
+      }
+    </script>
+    <link rel="preload" href="https://maps.gstatic.com/maps-api-v3/embed/js/65/10a/intl/uz_ALL/init_embed.js" nonce="891bWtTIVIMg7bjrwP_aQg" as="script" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmL18misQw9KdwqGaw3zHkitj8vG6QF2Y&amp;paint_origin=&amp;libraries=geometry,search&amp;v=weekly&amp;loading=async&amp;language=uz&amp;experimentation=allowed&amp;callback=onApiLoad" nonce="891bWtTIVIMg7bjrwP_aQg" async defer></script>
+  </body>
+</html>
