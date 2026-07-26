@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html data-layout="twocolumn" data-preloader="disable" data-sidebar="light" data-sidebar-image="none" data-sidebar-size="lg" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Kirish | NamSPI.UZ
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Administratorlar uchun bo'lim" name="description"/>
+  <link href="../front/images/logo_namspi_white.png" rel="icon" type="image/png"/>
+  <script src="../admin/js/layout.js">
+  </script>
+  <link href="../admin/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <link href="../admin/css/icons.min.css" rel="stylesheet" type="text/css"/>
+  <link href="../admin/css/app.min.css" rel="stylesheet" type="text/css"/>
+  <link href="../admin/css/custom.min.css" rel="stylesheet" type="text/css"/>
+  <script class="flasher-js" type="text/javascript">
+   (function() {    var rootScript = 'https://cdn.jsdelivr.net/npm/@flasher/flasher@1.3.2/dist/flasher.min.js';    var FLASHER_FLASH_BAG_PLACE_HOLDER = {};    var options = mergeOptions([], FLASHER_FLASH_BAG_PLACE_HOLDER);    function mergeOptions(first, second) {        return {            context: merge(first.context || {}, second.context || {}),            envelopes: merge(first.envelopes || [], second.envelopes || []),            options: merge(first.options || {}, second.options || {}),            scripts: merge(first.scripts || [], second.scripts || []),            styles: merge(first.styles || [], second.styles || []),        };    }    function merge(first, second) {        if (Array.isArray(first) && Array.isArray(second)) {            return first.concat(second).filter(function(item, index, array) {                return array.indexOf(item) === index;            });        }        return Object.assign({}, first, second);    }    function renderOptions(options) {        if(!window.hasOwnProperty('flasher')) {            console.error('Flasher is not loaded');            return;        }        requestAnimationFrame(function () {            window.flasher.render(options);        });    }    function render(options) {        if ('loading' !== document.readyState) {            renderOptions(options);            return;        }        document.addEventListener('DOMContentLoaded', function() {            renderOptions(options);        });    }    if (1 === document.querySelectorAll('script.flasher-js').length) {        document.addEventListener('flasher:render', function (event) {            render(event.detail);        });            }    if (window.hasOwnProperty('flasher') || !rootScript || document.querySelector('script[src="' + rootScript + '"]')) {        render(options);    } else {        var tag = document.createElement('script');        tag.setAttribute('src', rootScript);        tag.setAttribute('type', 'text/javascript');        tag.onload = function () {            render(options);        };        document.head.appendChild(tag);    }})();
+  </script>
+ </head>
+ <body>
+  <!-- auth-page wrapper -->
+  <div class="auth-page-wrapper auth-bg-cover py-5 d-flex justify-content-center align-items-center min-vh-100">
+   <div class="bg-overlay">
+   </div>
+   <!-- auth-page content -->
+   <div class="auth-page-content overflow-hidden pt-lg-5">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-12">
+       <div class="card overflow-hidden">
+        <div class="row g-0">
+         <div class="col-lg-6">
+          <div class="p-lg-5 p-4 auth-one-bg h-100">
+           <div class="bg-overlay">
+           </div>
+           <div class="position-relative h-100 d-flex flex-column">
+            <div class="mb-4" style="text-align: center">
+             <a class="d-block" href="administrator.html">
+              <img alt="old.namspi.uz" src="../admin/images/logo-light.png" style="margin-top: 60px; height: 126px;"/>
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="col-lg-6">
+          <div class="p-lg-5 p-4">
+           <div>
+            <h5 class="text-primary">
+             Hush kelibsiz!
+            </h5>
+            <p class="text-muted">
+             old.namspi.uz sayti boshqaruv paneli.
+            </p>
+           </div>
+           <div class="mt-4">
+            <form action="https://old.namspi.uz/login" method="POST">
+             <input autocomplete="off" name="_token" type="hidden" value="5tWEy3SbNPGf6QpHHABBqmNYHHKH0vDtefSQnp1s"/>
+             <div class="form-group row">
+              <div class="col-md-12">
+               <input autofocus="" class="form-control" id="email" name="email" required="" type="email" value=""/>
+              </div>
+             </div>
+             <br/>
+             <div class="form-group row">
+              <div class="col-md-12">
+               <input class="form-control" id="password" name="password" required="" type="password"/>
+              </div>
+             </div>
+             <br/>
+             <div class="form-group row mb-12">
+              <div class="col-md-12 offset-md-12">
+               <button class="btn btn-primary w-100" type="submit">
+                Авторизоваться
+               </button>
+              </div>
+             </div>
+             <br/>
+             <br/>
+             <h5 class="text-primary">
+              Quyidagi yordamida kirish
+             </h5>
+             <div>
+              <a class="btn btn-primary w-100" href="https://sso.egov.uz/sso/oauth/Authorization.do?response_type=one_code&amp;client_id=namspi&amp;redirect_uri=https://namspi.uz/custom-login&amp;scope=myportal&amp;state=namspi">
+               <img alt="" src="../admin/images/layouts/oneid.svg" width="70px"/>
+              </a>
+             </div>
+            </form>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer class="footer">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-12">
+       <div class="text-center">
+        <p class="mb-0">
+         ©
+         <script>
+          document.write(new Date().getFullYear())
+         </script>
+         Design &amp; Develop by @baxtiyoryuldashev
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div>
+  <script src="../admin/libs/bootstrap/js/bootstrap.bundle.min.js">
+  </script>
+  <script src="../admin/libs/simplebar/simplebar.min.js">
+  </script>
+  <script src="../admin/libs/node-waves/waves.min.js">
+  </script>
+  <script src="../admin/libs/feather-icons/feather.min.js">
+  </script>
+  <script src="../admin/js/pages/plugins/lord-icon-2.1.0.js">
+  </script>
+  <script src="../admin/js/plugins.js">
+  </script>
+  <script src="../admin/js/pages/password-addon.init.js">
+  </script>
+ </body>
+</html>
