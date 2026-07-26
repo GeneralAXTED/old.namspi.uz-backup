@@ -1,0 +1,1 @@
+# old.namspi.uz-backup
